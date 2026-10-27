@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green-primary: #2ecc71;
+    --green-secondary: #27ae60;
+    --beige: #f5f5dc;
+    --white: #ffffff;
+    --dark: #333333;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--beige);
+    color: var(--dark);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

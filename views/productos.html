@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="icon" type="image/png" href="../img/icons/logo.png">
+    <title>Productos | EcoMarket</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">
+            <img src="../img/icons/logo.png" alt="Logo EcoMarket">
+        </a>
+        <nav>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html" class="active-link">Productos</a></li>
+                <li><a href="sobre-nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="header-icons">
+
+            <a href="#" class="nav-icon">
+                <img src="../img/icons/lupa.svg" alt="Buscar">
+            </a>
+
+            <a href="#" class="nav-icon">
+                <img src="../img/icons/carrito.svg" alt="Carrito">
+            </a>
+
+            <a href="#" class="nav-icon">
+                <img src="../img/icons/user.svg" alt="Usuario">
+            </a>
+
+        </div>
+    </header>
+
+    <main class="catalog-layout">
+
+        <aside class="sidebar">
+
+            <h2>Filtros</h2>
+
+            <h3>Categorías</h3>
+
+            <label><input type="checkbox">Hogar</label>
+            <label><input type="checkbox">Moda</label>
+            <label><input type="checkbox">Cuidado Personal</label>
+            <label><input type="checkbox">Alimentos</label>
+
+            <h3>Disponibilidad</h3>
+
+            <label>
+                <input type="checkbox">
+                En stock
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Agotados
+            </label>
+
+            <h3>Precio</h3>
+
+            <label>
+                <input type="radio" name="precio">
+                Menos de $20.000
+            </label>
+
+            <label>
+                <input type="radio" name="precio">
+                $20.000 - $50.000
+            </label>
+
+            <label>
+                <input type="radio" name="precio">
+                Más de $50.000
+            </label>
+
+        </aside>
+
+        <section class="catalog-content">
+
+            <h1>Catálogo de Productos</h1>
+
+            <p class="catalog-description">
+                Encuentra productos sostenibles diseñados para reducir tu impacto ambiental y contribuir a un estilo de
+                vida más responsable.
+            </p>
+
+            <div class="search-bar">
+                <input type="search" placeholder="Buscar productos">
+            </div>
+
+            <div class="catalog-grid">
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/botella_reutilizable.jpg" alt="Botella reutilizable">
+                    <h3>Botella Reutilizable</h3>
+                    <p class="price">$45.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/cepillo_de_bambu.png" alt="Cepillo de Bambú">
+                    <h3>Cepillo de Bambú</h3>
+                    <p class="price">$18.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/jabon_natural.png" alt="Jabón Natural">
+                    <h3>Jabón Natural</h3>
+                    <p class="price">$22.000</p>
+                    <span class="stock sold-out">Agotado</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/termo_ecologico.png" alt="Termo Ecológico">
+                    <h3>Termo Ecológico</h3>
+                    <p class="price">$65.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/bolsa_ecologica.jpg" alt="Bolsa Reutilizable">
+                    <h3>Bolsa Reutilizable</h3>
+                    <p class="price">$12.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/set_de_cubiertos.png" alt="Cubiertos de Bambú">
+                    <h3>Cubiertos de Bambú</h3>
+                    <p class="price">$28.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/vela_ecologica.jpg" alt="Vela Ecológica">
+                    <h3>Vela Ecológica</h3>
+                    <p class="price">$30.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/shampoo_solido.jpg" alt="Shampoo Sólido">
+                    <h3>Shampoo Sólido</h3>
+                    <p class="price">$25.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/camiseta_organica.jpg" alt="Camiseta Orgánica">
+                    <h3>Camiseta Orgánica</h3>
+                    <p class="price">$55.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/mochila_reciclada.jpg" alt="Mochila Reciclada">
+                    <h3>Mochila Reciclada</h3>
+                    <p class="price">$89.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/mochila_algodon_organico.jpg" alt="Mochila de Algodón Orgánico">
+                    <h3>Mochila de Algodón Orgánico</h3>
+                    <p class="price">$50.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/gorra_eco.jpg" alt="Gorra Eco">
+                    <h3>Gorra Eco</h3>
+                    <p class="price">$35.000</p>
+                    <span class="stock sold-out">Agotado</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/billetera_de_corcho.jpg" alt="Billetera de Corcho">
+                    <h3>Billetera de Corcho</h3>
+                    <p class="price">$48.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/cafe_organico.png" alt="Café Orgánico">
+                    <h3>Café Orgánico</h3>
+                    <p class="price">$24.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/te_ecologico.png" alt="Té Ecológico">
+                    <h3>Té Ecológico</h3>
+                    <p class="price">$15.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/miel_natural.jpg" alt="Miel Natural">
+                    <h3>Miel Natural</h3>
+                    <p class="price">$32.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/granola_artesanal.jpg" alt="Granola Artesanal">
+                    <h3>Granola Artesanal</h3>
+                    <p class="price">$18.000</p>
+                    <span class="stock sold-out">Agotado</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/chocolate_organico.png" alt="Chocolate Orgánico">
+                    <h3>Chocolate Orgánico</h3>
+                    <p class="price">$14.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/acondicionador_solido.jpg" alt="Acondicionador Sólido">
+                    <h3>Acondicionador Sólido</h3>
+                    <p class="price">$27.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+                <article class="catalog-card">
+
+                    <img src="../img/products/esponja_natural.jpg" alt="Esponja Natural">
+                    <h3>Esponja Natural</h3>
+                    <p class="price">$10.000</p>
+                    <span class="stock available">En stock</span>
+                    <button class="favorite-btn">❤</button>
+                    <a href="#" class="btn-card">Comprar</a>
+
+                </article>
+
+            </div>
+
+            <div class="pagination">
+                <a href="#">Anterior</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">Siguiente</a>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div>
+            <h3>🌱 EcoMarket</h3>
+            <p>Productos responsables para un futuro sostenible.</p>
+        </div>
+
+        <div class="footer-info">
+            <p>
+                <img src="../img/icons/location.svg" alt="Ubicación">
+                Floridablanca, Santander
+            </p>
+
+            <p>
+                <img src="../img/icons/email.svg" alt="Correo">
+                contacto@ecomarket.com
+            </p>
+
+            <p>
+                <img src="../img/icons/call.svg" alt="Teléfono">
+                +57 300 123 4567
+            </p>
+
+            <p>
+                <img src="../img/icons/horario.svg" alt="Horario">
+                Lun - Sáb: 8:00 AM - 6:00 PM
+            </p>
+        </div>
+
+        <div>
+            <h3>Síguenos</h3>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                    <img src="../img/icons/footerfacebook.svg" alt="Facebook">
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <img src="../img/icons/footerinstagram.svg" alt="Instagram">
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <img src="../img/icons/x.svg" alt="Twitter">
+                </a>
+            </div>
+
+            <div>
+                <h3>Legal</h3>
+                <p><a href="../views/contacto.html#legal">Política de privacidad</a></p>
+                <p><a href="../views/contacto.html#terminos">Términos y condiciones</a></p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="footer-copy">
+        <p>© 2026 EcoMarket. Todos los derechos reservados.</p>
+    </div>
+
+</body>
+
+</html>

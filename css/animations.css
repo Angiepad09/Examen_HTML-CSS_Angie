@@ -1,0 +1,85 @@
+.nav-links a{
+    transition: .3s;
+}
+
+.nav-links a:hover{
+    color: var(--green-primary);
+}
+
+.active-link{
+    color: var(--green-primary);
+    font-weight: bold;
+}
+
+.footer a{
+    transition: .3s;
+}
+
+.footer a:hover{
+    color: var(--beige);
+}
+
+.product-card{
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 20px rgba(0,0,0,.2);
+}
+
+.catalog-card{
+    transition:.3s;
+}
+
+.catalog-card:hover{
+    transform:translateY(-10px);
+}
+
+.pagination a{
+    transition:.3s;
+}
+
+.favorite-btn:active{
+    color: red;
+}
+
+.sidebar label{
+    transition: .3s;
+}
+
+.sidebar label:hover{
+    background-color: rgba(46, 204, 113, .1);
+    color: var(--green-secondary);
+    padding-left: .8rem;
+}
+
+.testimonial-card{
+    transition:.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 20px rgba(0,0,0,.15);
+}
+
+.testimonial-container{
+    display:flex;
+    gap:1.5rem;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    padding-bottom:1rem;
+}
+
+.testimonial-card{
+    min-width:300px;
+    scroll-snap-align:center;
+}
+
+.social-links img{
+    transition:.3s;
+}
+
+.social-links img:hover{
+    transform:scale(1.15);
+}
