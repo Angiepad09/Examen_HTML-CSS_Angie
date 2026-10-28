@@ -23,7 +23,7 @@ De esta manera, cualquier usuario puede acceder al sitio web desde un navegador 
 
 No se requiere instalación ni configuración adicional para acceder al proyecto.
 
----
+
 ## 📂 Repositorio
 
 El código fuente completo del proyecto se encuentra disponible en GitHub y puede consultarse a través del siguiente enlace:
